@@ -1,7 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import { Component } from 'react';
+import Articulo from './components/Articulo';
 
-function App() {
+function App(){
+  return <Articulo />
+}
+
+export default App;
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -22,4 +29,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; */
